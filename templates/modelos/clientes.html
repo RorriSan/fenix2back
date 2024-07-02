@@ -1,0 +1,42 @@
+{% extends "base.html" %}
+
+{% block titulo %}
+    Clientes Fenix
+{% endblock titulo %}
+
+{% block contenido %}
+
+<h2 class="color5">Clientes en el sistema</h2>
+<div class="articulos unaColumna">
+    <article>
+        {% if mensaje != None %}
+            <h3>{{ mensaje }}</h3>
+        {% endif %}
+        <table>
+            <thead>
+                <tr>
+                    <td class="bold">nombre</td>
+                    <td class="bold">apellido</td>
+                    <td class="bold">telefono</td>
+                    <td class="bold">mail</td>
+                    <td class="bold">usuario</td>
+                    <td class="bold">contraseña</td>
+                </tr>
+            </thead>
+       <!--      <tbody>
+            {% for Clientes in Clientes %}
+                <tr>
+                    <td><a href="{{ url_for('ver_detalle', id=curso.id, tipo='curso') }}" title="Ver detalle">{{ curso.tema_id }}</a></td>
+                    <td>{{ curso.fecha_inicio.strftime('%d-%m-%Y') }}</td>
+                    <td>{{ curso.docente }}</td>
+                </tr>
+            {% endfor %} 
+            </tbody> -->
+        </table>
+    </article>
+    <div class="crear">
+        <a href="{{ url_for('crear', tipo='curso') }}" class="menuSPA color2">Crear nuevo usuario</a>
+    </div>
+</div>
+
+{% endblock contenido %}

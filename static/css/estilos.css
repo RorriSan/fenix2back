@@ -1,0 +1,375 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+  }
+
+  header{
+    border: 2px black solid;
+    background-color: bisque;
+    text-align: center;
+    height: fit-content;
+    background-color: #080109;
+    opacity: 0.8;
+    background-image:  linear-gradient(rgba(255,228,196,1) 1px, transparent 1px), linear-gradient(to right, rgba(255,228,196,1) 1px, #080109 1px);
+    background-size: 20px 20px;
+    padding: 1%;
+  }
+
+body {
+    border: 2px orange solid;
+  background-color: #ececed;
+  background-image: url("data:image/svg+xml,%3Csvg width='84' height='48' viewBox='0 0 84 48' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M0 0h12v6H0V0zm28 8h12v6H28V8zm14-8h12v6H42V0zm14 0h12v6H56V0zm0 8h12v6H56V8zM42 8h12v6H42V8zm0 16h12v6H42v-6zm14-8h12v6H56v-6zm14 0h12v6H70v-6zm0-16h12v6H70V0zM28 32h12v6H28v-6zM14 16h12v6H14v-6zM0 24h12v6H0v-6zm0 8h12v6H0v-6zm14 0h12v6H14v-6zm14 8h12v6H28v-6zm-14 0h12v6H14v-6zm28 0h12v6H42v-6zm14-8h12v6H56v-6zm0-8h12v6H56v-6zm14 8h12v6H70v-6zm0 8h12v6H70v-6zM14 24h12v6H14v-6zm14-8h12v6H28v-6zM14 8h12v6H14V8zM0 8h12v6H0V8z' fill='%23e6984b' fill-opacity='0.19' fill-rule='evenodd'/%3E%3C/svg%3E");
+}
+}
+
+h1 {
+    color: #cb0fe3;
+    font-size: 100px;
+  
+  }
+  h2 {
+    color: rgb(255, 102, 0);
+    font-size: 50px;
+    background-color: black;
+    width: fit-content;
+    margin: auto;
+  }
+  h3{
+    text-align: center;
+  }
+  #home {
+  
+    text-align: center;
+    border-width: 50px;
+    border-color: black;
+    padding: 5%;
+    height: auto;
+    display: block;
+    margin: 3%;
+  }
+
+h1 {
+    font-weight: 700;
+}
+
+h2 {
+    height: 4rem;
+}
+
+.visibleH {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    padding-bottom: 0.5%;
+}
+
+.menuSPA {
+    width: 20%;
+    font-size: 1.2rem;
+    font-weight: 600;
+    height: 3rem;
+    border-radius: 5px;
+    text-align: center;
+    padding: 1%;
+}
+
+.menuSPA:hover {
+    background-color: whitesmoke;
+}
+
+a {
+    padding: 0.5%;
+    border-radius: 3px;
+}
+
+a:link, a:visited {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover {
+    background-color: #779FA1;
+    color: black;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 9rem;
+}
+
+article, fieldset {
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 2%;
+    margin: 2%;
+}
+
+article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+p {
+    margin: 1%;
+}
+
+.articulos {
+    display: grid;
+}
+
+.logoFijo {
+    margin: 1%;
+    width: 5rem;
+    position: fixed;
+    bottom: 5rem;
+    right: 2%;
+    z-index: 20;
+    background-color: grey;
+    border-radius: 50%;
+}
+
+.imgEvento {
+    width: 60%;
+    height: auto;
+}
+
+.contImg {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 2%;
+}
+
+.imgCurso {
+    width: auto;
+    height: 6rem;
+}
+
+.logo {
+    width: 2rem;
+    height: auto;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.campoForm {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 0.5rem;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.validar {
+    display: flex;
+    justify-content: center;
+    padding: 2%;
+}
+
+.validarInput {
+    width: 80%;
+    height: 3rem;
+    font-size: larger;
+    border-radius: 5px;
+}
+
+.validarInput:hover {
+    background-color: whitesmoke;
+    color: black;
+    font-weight: 600;
+}
+
+.error404 {
+    padding-top: 20%;
+    padding-bottom: 20%;
+}
+
+li {
+    list-style-type: none;
+}
+
+div ul .checkBox {
+    margin-left: 0;
+    display: flex;
+    justify-content: left;
+}
+
+.checkBox {
+    font-size: large;
+    margin-top: 0.75rem;
+}
+
+table {
+    width: 100%;
+    border-bottom-style: 1px solid black;
+}
+
+th, td {
+    width: 35%;
+    text-align: center;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+input {
+    text-align: center;
+    height: auto;
+}
+
+button:active {
+    background-color: whitesmoke;
+    color: red;
+}
+
+/* Parche */
+.linksCH:hover {
+    background-color: #88498F;
+}
+
+/* Puntos de corte */
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 600px) {
+    h1 {
+        text-align: left;
+    }
+
+    header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 7.5rem;
+    }
+
+    body {
+        padding-top: 7.5rem;
+    }
+
+    nav {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        justify-content: center;
+        margin-right: 5%;
+    }
+
+    .menuBurger {
+        width: 30%;
+        padding: 2%;
+        border: 2px solid black;
+        border-radius: 5px;
+        background-color: #E0CBA8;
+    }
+
+    .menuBurger:hover {
+        background-color: whitesmoke;
+    }
+
+    .oculto {
+        display: none;
+    }
+
+    .visibleV {
+        position: fixed;
+        display: grid;
+        margin-top: 50%;
+    }
+
+    .menuSPA {
+        width: 100%;
+    }
+
+    .articulos {
+        grid-template-columns: 90%;
+        justify-content: space-around;
+    }
+
+    td {
+        font-size: small;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 600px) {
+    header {
+        height: 7rem;
+    }
+
+    .menuBurger {
+        display: none;
+    }
+
+    body {
+        padding-top: 7rem;
+    }
+
+    .articulos {
+        grid-template-columns: 45% 45%;
+        justify-content: space-around;
+    }
+
+    .unaColumna {
+        grid-template-columns: 80%;
+        align-content: baseline;
+        padding-bottom: 8%;
+    }
+
+    .campoForm {
+        flex-direction: column;
+    }
+
+    td {
+        font-size: small;
+    }
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    header {
+        height: 7.5rem;
+    }
+
+    .menuBurger {
+        display: none;
+    }
+
+    body {
+        padding-top: 7.5rem;
+    }
+    
+    .articulos{
+        grid-template-columns: 50% 50%;
+        justify-content: space-around;
+    }
+    
+    .unaColumna {
+        grid-template-columns: 80%;
+        align-content: baseline;
+        padding-bottom: 8%;
+    }
+
+    .campoForm {
+        flex-direction: row;
+    }
+
+    td {
+        font-size: medium;
+    }
+
+}
