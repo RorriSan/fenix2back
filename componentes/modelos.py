@@ -9,7 +9,7 @@ class Cliente(Tabla):
     
     tabla = 'clientes'
     conexion = con
-    campos = ('id', 'nombre', 'apellido', 'telefono', 'mail', 'usuario', 'contraseña')
+    campos = ('id', 'nombre', 'apellido', 'telefono', 'mail', 'usuario', 'password')
     
     # Curso(tema, inicio, cierre, docente, cupo)
     def __init__(self, *args, de_bbdd=False):
