@@ -19,8 +19,8 @@ class Tabla:
     
     def guardar_db(self):
         """
-        INSERT INTO tabla (n, ..., z) VALUES
-            (%s,... %s)
+        INSERT INTO tabla (clientes) VALUES
+            ()
         """
         campos_q = str(self.campos[1:]).replace("'", "`")
         values_q = f"({'%s, ' * (len(self.campos)-2)} %s)"
